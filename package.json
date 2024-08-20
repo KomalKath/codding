@@ -5,9 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
-    "build": "echo \"Netlify doesn't need to build anything\"",
-    "netlify": "node functions/api.js"
+    "start": "nodemon app.js",
+   
   },
   "keywords": [],
   "author": "",
